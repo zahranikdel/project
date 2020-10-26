@@ -1,0 +1,21 @@
+.img-box{display:inline-block; vertical-align:middle; position:relative; overflow:hidden; cursor:pointer; color:rgba(255,255,255,1)}
+.img-box img{display:block}
+.img-box div{position:absolute; display:flex; opacity:0; width:100%; height:100%; transition:all 0.2s ease-in-out; text-align:center;
+-o-transition:all 0.2s ease-in-out;
+-ms-transition:all 0.2s ease-in-out;
+-moz-transition:all 0.2s ease-in-out;
+-webkit-transition:all 0.2s ease-in-out; background-color:rgba(0,0,0,.5); font-size:24px}
+.img-box:hover > div{opacity:1}
+.img-box div span{width:95%; margin:auto; text-shadow:2px 2px 0 rgba(0,0,0,.5) }
+
+.img-box-top div{top:-100%;}
+.img-box-top:hover > div{top:0}
+
+.img-box-right div{top:0; right:-100%;}
+.img-box-right:hover > div{right:0}
+
+.img-box-bottom div{bottom:-100%; left:0;}
+.img-box-bottom:hover > div{bottom:0}
+
+.img-box-left div{top:0; left:-100%;}
+.img-box-left:hover > div{left:0}
