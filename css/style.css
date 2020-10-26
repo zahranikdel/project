@@ -106,17 +106,21 @@ i{
 .neveshte p{
     letter-spacing: 4px;
 }
+/* .nav2{
+    direction: rtl;
+} */
 .nav2 ul{
     margin-top: 40px;
     margin-left: 50px;
+    text-align: end;
 }
 .nav2 ul li{
     display: inline;
-    text-align: right;
     list-style: none;
-    padding-left: 15px;
     color: #cccccc;
     font-size: 13px;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
 }
 .image{
     display: grid;
